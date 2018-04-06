@@ -3,7 +3,7 @@ def line(array)
       puts "The line is currently empty."
     else
 
-      puts "The list is currently: "
+      puts "The line is currently: "
       array.map.with_index do |name, index|
         puts "#{index+1}. #{name}"
       end
